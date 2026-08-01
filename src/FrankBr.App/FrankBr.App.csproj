@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>FrankBr.App</AssemblyName>
+    <RootNamespace>FrankBr.App</RootNamespace>
+    <ApplicationIcon Condition="Exists('Assets\\FrankBr.ico')">Assets\\FrankBr.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FrankBr.Core\FrankBr.Core.csproj" />
+    <ProjectReference Include="..\FrankBr.Canvas\FrankBr.Canvas.csproj" />
+    <ProjectReference Include="..\FrankBr.Rendering\FrankBr.Rendering.csproj" />
+    <ProjectReference Include="..\FrankBr.Documents\FrankBr.Documents.csproj" />
+    <ProjectReference Include="..\FrankBr.Templates\FrankBr.Templates.csproj" />
+    <ProjectReference Include="..\FrankBr.Infrastructure\FrankBr.Infrastructure.csproj" />
+    <ProjectReference Include="..\FrankBr.Plugins\FrankBr.Plugins.csproj" />
+  </ItemGroup>
+</Project>

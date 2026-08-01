@@ -1,0 +1,26 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="WindowBrush" Color="#111827" />
+    <SolidColorBrush x:Key="PanelBrush" Color="#182231" />
+    <SolidColorBrush x:Key="PanelAltBrush" Color="#202D3D" />
+    <SolidColorBrush x:Key="BorderBrush" Color="#34465C" />
+    <SolidColorBrush x:Key="AccentBrush" Color="#3B82F6" />
+    <SolidColorBrush x:Key="TextBrush" Color="#F8FAFC" />
+    <SolidColorBrush x:Key="MutedTextBrush" Color="#AAB7C7" />
+
+    <Style TargetType="Window">
+        <Setter Property="Background" Value="{StaticResource WindowBrush}" />
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+        <Setter Property="FontFamily" Value="Segoe UI" />
+    </Style>
+    <Style TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+        <Setter Property="Background" Value="{StaticResource PanelAltBrush}" />
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}" />
+        <Setter Property="Padding" Value="14,7" />
+        <Setter Property="Margin" Value="3" />
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>FrankBr.Core</AssemblyName>
+    <RootNamespace>FrankBr.Core</RootNamespace>
+  </PropertyGroup>
+
+</Project>

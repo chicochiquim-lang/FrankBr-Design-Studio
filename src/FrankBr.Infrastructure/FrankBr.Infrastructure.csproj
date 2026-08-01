@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>FrankBr.Infrastructure</AssemblyName>
+    <RootNamespace>FrankBr.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\FrankBr.Core\\FrankBr.Core.csproj" />
+    <ProjectReference Include="..\\FrankBr.Documents\\FrankBr.Documents.csproj" />
+  </ItemGroup>
+</Project>

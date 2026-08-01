@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+    <AssemblyName>FrankBr.Tests</AssemblyName>
+    <RootNamespace>FrankBr.Tests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\FrankBr.Core\FrankBr.Core.csproj" />
+    <ProjectReference Include="..\..\src\FrankBr.Canvas\FrankBr.Canvas.csproj" />
+  </ItemGroup>
+</Project>

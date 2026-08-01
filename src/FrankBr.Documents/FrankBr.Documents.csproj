@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>FrankBr.Documents</AssemblyName>
+    <RootNamespace>FrankBr.Documents</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\FrankBr.Core\\FrankBr.Core.csproj" />
+  </ItemGroup>
+</Project>
