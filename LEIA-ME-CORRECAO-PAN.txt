@@ -1,0 +1,30 @@
+FRANKBR — CORREÇÃO SPRINT 006.1
+
+ERRO CORRIGIDO
+CS1061: CanvasState não continha PanOffsetX/PanOffsetY.
+
+ARQUITETURA NOVA
+- CanvasState: documento, grade, ponteiro e seleção.
+- ViewportState: zoom, offsets e estado do pan.
+
+INSTALAÇÃO
+1. Feche o Visual Studio.
+2. Faça backup da pasta atual.
+3. Extraia este ZIP em uma pasta nova.
+4. Abra FrankBr-Design-Studio.sln.
+5. Limpe e recompile a solução.
+6. Execute com F5.
+
+TESTES
+[ ] Compila sem CS1061.
+[ ] Zoom continua funcionando.
+[ ] Botão do meio + arrastar faz pan.
+[ ] Espaço + botão esquerdo + arrastar faz pan.
+[ ] Importação, seleção, movimento e resize funcionam.
+
+
+CORREÇÃO V2
+- MainWindowViewModel.ZoomText agora usa CanvasService.EffectiveZoom.
+- Removida a última referência a CanvasState.EffectiveZoom.
+- Verificadas referências antigas de PanOffsetX/PanOffsetY.
+- XAML e arquivos de projeto revalidados.

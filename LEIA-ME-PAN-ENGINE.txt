@@ -1,0 +1,16 @@
+FRANKBR DESIGN STUDIO — SPRINT 006 PAN ENGINE
+
+INSTALAÇÃO
+1. Faça backup ou commit da base com Zoom Engine.
+2. Extraia este ZIP em uma pasta nova.
+3. Abra FrankBr-Design-Studio.sln.
+4. Limpe e recompile a solução.
+5. Execute com F5.
+
+TESTES
+[ ] Botão do meio + arrastar move a visualização.
+[ ] Espaço + botão esquerdo + arrastar move a visualização.
+[ ] O cursor muda para mão.
+[ ] Objetos não mudam de posição durante o pan.
+[ ] Ctrl + roda continua aplicando zoom.
+[ ] Grade, seleção, movimento e resize continuam funcionando.

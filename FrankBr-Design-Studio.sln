@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.8.12023.21 stable
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -19,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrankBr.Plugins", "src\FrankBr.Plugins\FrankBr.Plugins.csproj", "{8A01308B-50BD-4CE0-9F94-B43024980108}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrankBr.Tests", "tests\FrankBr.Tests\FrankBr.Tests.csproj", "{8A01308B-50BD-4CE0-9F94-B43024980109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrankBr.Engine", "src\FrankBr.Engine\FrankBr.Engine.csproj", "{8A01308B-50BD-4CE0-9F94-B43024980110}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,11 @@ Global
 		{8A01308B-50BD-4CE0-9F94-B43024980109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A01308B-50BD-4CE0-9F94-B43024980109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A01308B-50BD-4CE0-9F94-B43024980109}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{8A01308B-50BD-4CE0-9F94-B43024980110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A01308B-50BD-4CE0-9F94-B43024980110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A01308B-50BD-4CE0-9F94-B43024980110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A01308B-50BD-4CE0-9F94-B43024980110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

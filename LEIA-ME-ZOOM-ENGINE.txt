@@ -1,0 +1,17 @@
+FRANKBR DESIGN STUDIO — ZOOM ENGINE
+
+INSTALAÇÃO
+1. Faça backup ou commit da base atual.
+2. Extraia este ZIP em uma pasta nova.
+3. Abra FrankBr-Design-Studio.sln.
+4. Limpe e recompile a solução.
+5. Execute com F5.
+
+TESTES
+[ ] Ctrl + roda aumenta e diminui o zoom.
+[ ] O ponto sob o cursor permanece como referência.
+[ ] Botões + e − funcionam.
+[ ] Ajustar enquadra o documento.
+[ ] Ctrl + 0 volta para 35%.
+[ ] A grade acompanha o zoom.
+[ ] Importar, mover e redimensionar continuam funcionando.

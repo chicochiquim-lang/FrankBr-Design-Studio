@@ -1,0 +1,22 @@
+FRANKBR DESIGN STUDIO — CORREÇÃO NU1105
+
+CAUSA ENCONTRADA
+O projeto src/FrankBr.Engine/FrankBr.Engine.csproj existia e era referenciado
+pelo FrankBr.App.csproj, porém não estava registrado no arquivo
+FrankBr-Design-Studio.sln.
+
+CORREÇÕES APLICADAS
+- FrankBr.Engine adicionado à solução.
+- Configurações Debug e Release adicionadas à solução.
+- Pastas bin, obj e .vs removidas para eliminar caches antigos.
+- Arquivo .gitignore criado para impedir que esses caches sejam versionados.
+
+COMO TESTAR
+1. Extraia o ZIP para uma pasta nova.
+2. Abra FrankBr-Design-Studio.sln.
+3. Aguarde o Visual Studio restaurar os projetos.
+4. Use Compilar > Limpar Solução.
+5. Use Compilar > Recompilar Solução.
+6. Execute com F5.
+
+Se aparecer a barra amarela de restauração do NuGet, clique em Restaurar.
